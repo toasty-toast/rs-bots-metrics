@@ -3,36 +3,6 @@
 <head>
     <title>Bot Metrics</title>
 	<meta charset="utf-8" />
-	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
-	<script>
-		$(document).ready(function () {
-			$.getJSON('api/skills')
-			.done(function (data) {
-				$.each(data, function (key, item) {
-					console.log(item);
-				});
-			});
-
-			/*var skill = {
-				id: 1,
-				name: "Attack",
-				xp: "30"
-			};
-
-			$.post('api/skills/1', skill, function (data) {
-				console.log("success");
-				console.log(data);
-			})
-			.done(function (data) {
-				console.log("second success");
-				console.log(data);
-			})
-			.fail(function (data) {
-				console.log("error");
-				console.log(data);
-			});*/
-		});
-	</script>
 </head>
 <body>
 
