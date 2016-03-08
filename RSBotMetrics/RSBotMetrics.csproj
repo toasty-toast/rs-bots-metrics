@@ -82,7 +82,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\bot-metrics-template.css" />
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="img\favicon.png" />
     <Content Include="index.html" />
     <Content Include="js\bot-metrics.js" />
     <Content Include="Web.config" />
@@ -107,7 +109,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="img\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
